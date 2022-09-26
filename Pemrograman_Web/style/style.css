@@ -1,28 +1,30 @@
 li{
     list-style: none;
+    text-decoration: none;
 }
 
 /*Header*/
 .header{
     background-color:#3cecc0;
-    height: 90px;
+    height: 120px;
     color: #fff;
 }
 
 .header-logo{
     float: left;
-    font-size: 30px;
-    padding: 20px 40px;
+    font-size: 80px;
+    padding: 20px 20px;
 }
 
 .header-list li{
-    float: left;
-    padding: 33px 20px;
+    float: right;
+    padding: 40px 20px 25px 20px;
+    font-size: 30px;
 }
 
 /*Main*/
 .main{
-    background-color:#F5F0BB;
+    background-color: white;
     height: 600px;
     padding: 100px 80px;
 }
@@ -41,6 +43,11 @@ h2{
     margin-top: 100px;
 }
 
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
 .section-title{
     border-bottom: 2px solid #dee7ec;
     font-size: 28px;
@@ -51,6 +58,7 @@ h2{
 .contents-item{
     float: left;
     margin-right: 40px;
+    padding: 10px;
 }
 
 .contents-item p{
