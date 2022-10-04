@@ -1,18 +1,28 @@
-li{
+li {
     list-style: none;
     text-decoration: none;
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white
+}
+
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
 /*Header*/
-.header{
+header{
     background-color:#3cecc0;
-    height: 120px;
+    height: 130px;
     color: #fff;
 }
 
 .header-logo{
     float: left;
-    font-size: 80px;
+    font-size: 70px;
     padding: 20px 20px;
 }
 
@@ -23,7 +33,92 @@ li{
 }
 
 /*Main*/
-.main{
+main img{
+    height: 400px;
+    width: 800px;
+    padding: 5px 10px 30px 250px;
+}
+img{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 550px;
+    max-width: 100%;
+    float: center;
+
+}
+
+main input{
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.content{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+button{
+    text-align: center;
+    position: relative;
+
+}
+
+html {
+    transition: background-color 0.4s;
+}
+
+.dark-mode {
+    background: #2a2a39;
+    color: white;
+}
+
+.light-mode {
+    background: lightgrey;
+    color: #2a2a39;
+}
+
+.toggle {
+    float: right;
+    width: 45px;
+    height: 25px;
+    margin: 31px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background: #f8f3e3;
+    color: black;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    transform: translateX(2px);
+    border-radius: 30px;
+    transition: 0.4s;
+    position: absolute;
+    background: #b53e65;
+}
+
+.dark-mode .circle {
+    transform: translateX(23px)
+}
+
+.toggle-moon, .toggle-sun {
+    width: 50%;
+}
+/*.main{
     background-color: white;
     height: 600px;
     padding: 100px 80px;
@@ -93,12 +188,15 @@ a{
 .contact-submit{
     background: #dee7ec;
     color: #889eab;
-}
+}*/
+
+/*main2*/
+
 
 /*Footer*/
-.footer{
+footer{
     background-color:#373A36;
-    height: 120px;
+    height: 150px;
     padding: 40px;
     color: #fff;
 }
@@ -106,13 +204,23 @@ a{
 .footer-logo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
-    float: left;
+    text-align: center;
 }
 
-.footer-list{
-    float: right;
-}
-
-.footer-list li{
+.footer-sosmed{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+}
+
+.sosial-media img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
 }

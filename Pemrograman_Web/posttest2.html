@@ -4,71 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemrograman Web</title>
     <link rel="stylesheet" href="style/style.css">
+    <title>Wisata Benua Etam</title>
+    <script src="wisata.js"></script>
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="header-logo">Wisata Benua Etam</div>
+        <div class="toggle"> <!--Untuk latar belakang-->    
+            <div class="circle"></div> <!--Icon lingkaran-->    
+            <div class="toggle-moon"><i class="fas fa-moon"></i></div> <!--Icon bulan-->    
+            <div class="toggle-sun"><i class="fas fa-sun"></i></div> <!--Icon matahari-->
+        </div>
         <div class="header-list">
             <ul>
-                <li><a href="help.html">Help</a></li>
+                <li><a href="help.html">Bantuan</a></li>
                 <li><a href="tentang.html">Tentang</a></li>
                 <li><a href="kabupaten.html">Kabupaten</a></li>
             </ul>
         </div>
-    </div>
+    </header>
 
-    <div class="main">
-        <div class="copy-container">
-            <h1>Selamat Datang</h1>
-            <h2>Banyak Tempat Wisata Yang Harus Kalian Kunjungi</h2>
-        </div>
-        <div class="contents">
-            <h3 class="section-title">Destinasi Wisata Benua Etam</h3>
-            <div class="contents-item">
-                <img src="kepulauan-derawan.jpg" width="200px" height="200px">
-                <p>Kepulauan Derawan</p>
-            </div>
-
-            <div class="contents-item">
-                <img src="jembatan.jpg" width="200px" height="200px">
-                <p>Jembatan</p>
-            </div>
-
-            <div class="contents-item">
-                <img src="Air-Terjun-Rimbawan.jpg" width="200px" height="200px" alt="logo ruby">
-                <p>Air Terjun Rimbawan</p>
-            </div>
-
-            <div class="contents-item">
-                <img src="Waduk-Sesulu.jpg" width="200px" height="200px" alt="logo swift">
-                <p>Waduk Sesulu</p>
+    <main>
+        <div class="top-wrapper">
+            <img src="02 logo.png" alt="Logo Visit Kaltim">
+            <div class="content">
+                <input type="text" id="mail" placeholder="Email"><br>
+                <input type="password" id="pass" placeholder="password"><br><br>
+                <button type="button" ><span></span>Masuk</button>
+                
             </div>
         </div>
-    </div>
-        <div class="contact-form">
-            <h3 class="section-title">Hubungi Kami</h3>
-            <p>Email (Wajib Diisi</p>
-            <input type="text">
-
-            <p>Pesan (Wajib Diisi)</p>
-            <textarea  cols="40" rows="8"></textarea>
-
-            <p>*Bidang Wajib Diisi</p>
-            <input type="Submit" class="Contact-Submit" value="Send">
+        <div class="lesson-wrapper">
+            <div>
+             
+            </div>
         </div>
+        <div class="message-wrapper"></div>
+    </main>
 
-    <div class="footer">
-        <div class="footer-logo">Wisata Benua Etam</div>
-        <div class="footer-list">
-            <ul>
-                <li>About</li>
-                <li>Contact us</li>
-                <li>Feedback</li>
-            </ul>
+    <footer>
+        <div class="footer-logo">Benua Etam</div>
+        <div class="footer-sosmed">
+            <p>Ingin Liburan Tanpa Ribet Di Kalimantan Timur?</p>
+            <p>Ikutin Layanan Dari Wisata Benua Etam Yang Lebih Cepat Dan Resposif Mengenai Wisata Di Kalimantan Timur Ini</p>
+            <div class="sosial-media">
+                <img src="whatsapp.jpg" alt="WhatsApp">
+                <img src="facebook.jpg" alt="facebook">
+                <img src="instagram.png" alt="instagram">
+                <img src="twitter.jpg" alt="twitter">
+                <img src="youtube.jpg" alt="youtube">
+            </div>
         </div>
-
-    </div>
+    </footer>
 </body>
 </html>
