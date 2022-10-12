@@ -1,0 +1,144 @@
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white
+}
+
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+/*Header*/
+header{
+    background-color:#3cecc0;
+    height: 80px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-logo{
+    float: left;
+    font-size: 70px;
+    padding: 20px 20px;
+}
+
+.header-list li{
+    float: right;
+    padding: 40px 20px 25px 20px;
+    font-size: 30px;
+}
+
+/*Main*/
+main img{
+    height: 400px;
+    width: 800px;
+    padding: 5px 10px 30px 250px;
+}
+img{
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 550px;
+    max-width: 100%;
+    float: center;
+
+}
+
+main input{
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+.content{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.button{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #202231;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: width .5s,
+    border-radius .5s;
+
+}
+
+.button *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    transition: opacity .25s;
+}
+
+.icon{
+    opacity: 0;
+}
+
+.button:focus{
+    width : 30px;
+    background-color: #44c08a;
+    border-radius: 50%;
+}
+
+.button:focus .text{
+    opacity: 0;
+}
+
+.button:focus .icon{
+    opacity: 1;
+    transition-delay: 5s;
+}
+
+
+/* Footer
+footer{
+    background-color:#373A36;
+    height: 150px;
+    padding: 40px;
+    color: #fff;
+}
+
+.footer-logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-sosmed{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sosial-media img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+} */
